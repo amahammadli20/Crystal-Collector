@@ -1,0 +1,60 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.head{
+    background-color: #800080;
+    color: #fff;
+    border-radius: 5px;
+    height: 210px;
+}
+
+.crystal-collector{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.sub-headings{
+    background-color: #337ab7;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.instruction{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/*custom class*/
+.panel-cards{
+    border: 1px solid #337ab7;
+    line-height: 20px;
+    min-height: 160px;
+}
+
+.main-panel{
+    padding: 25px 0px;
+}
+
+.scores{
+    height: 130px;
+}
+
+.count{
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 991px){
+    .scores, .counts{
+        margin-bottom: 25px;
+    }
+}
